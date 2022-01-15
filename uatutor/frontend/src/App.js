@@ -1,13 +1,23 @@
-import logo from './logo.svg';
 import './App.css';
+import Navbar from './Navbar';
+import Home from './Home';
+import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 
 function App() {
+  const title = "Welcome to UATutor"
   return (
+    <Router>
     <div className="App">
-      <div className='content'>
-        <h1>Welcome to TutorApp</h1>
-      </div>
+      <Navbar/>
+        <div className='content'>
+          <Switch>
+            <Route exact path = '/'>
+              <Home/>
+            </Route>
+          </Switch>
+        </div>
     </div>
+    </Router>
   );
 }
 
