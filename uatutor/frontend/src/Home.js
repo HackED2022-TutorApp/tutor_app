@@ -1,13 +1,13 @@
-import TutorList from "./SiteUserList";
+import TutorList from "./TutorList";
 import useFetch from "./useFetch";
 
 const Home = () => {
-    const {data : siteusers, isPending, error} = useFetch('http://127.0.0.1:8000/api/siteuser/');
+    const {data : tutors, isPending, error} = useFetch('http://127.0.0.1:8000/api/tutor/');
     return (
         <div className="Home">
             {error && <div>{error}</div> }
             {isPending && <div>Loading...</div>}
-            {siteusers && <TutorList siteusers={siteusers}/>}
+            {tutors && <TutorList tutors={tutors}/>}
         </div>
     );
 }

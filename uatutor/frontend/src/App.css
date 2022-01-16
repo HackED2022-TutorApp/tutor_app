@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
 
 /* base styles */
 * {
@@ -26,7 +26,7 @@
   padding: 6px;
 }
 .navbar a:hover {
-  color: #5e07d1
+  color: #5e07d1;
 }
 .content {
   max-width: 600px;
@@ -34,39 +34,55 @@
   padding: 20px;
 }
 
-.site-user-preview {
+.tutor-preview {
   padding: 10px 16px;
   margin: 20px 0;
   border-bottom: 1px solid #fafafa;
 }
-.site-user-preview:hover {
-  box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
+.tutor-preview:hover {
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
 }
-.site-user-preview h2 {
+.tutor-preview h2 {
   font-size: 20px;
   color: #18360a;
   margin-bottom: 8px;
 }
 
+.tutor-list a {
+  text-decoration: none;
+}
+
+.tutor-details h1 {
+  text-align: center;
+}
+.tutor-details h2 {
+  font-size: 20px;
+  color: #18360a;
+  margin-bottom: 8px;
+}
+.tutor-details p {
+  margin-bottom: 10px;
+}
+
 /*-about----------------------------*/
-.about h1{
+.about h1 {
   font-size: 40px;
   text-align: center;
 }
 
-.about h2{
+.about h2 {
   font-size: 25px;
   text-align: center;
   padding-top: 20px;
 }
 
-.about p.aboutDescription{
+.about p.aboutDescription {
   font-size: 20px;
   text-align: center;
   padding-top: 20px;
 }
 
-.about p.devNames{
+.about p.devNames {
   font-size: 20px;
   text-align: center;
   padding-top: 20px;
@@ -104,3 +120,4 @@
 .editprofile a:hover{
   color: #5e07d1;
 }
+

@@ -91,3 +91,4 @@ class SiteUser(models.Model):
     major = models.CharField(choices=majorChoices, max_length=31)
     minor = models.CharField(max_length=20, blank =True, null=True)
     subject = models.CharField(max_length=20)
+    tutor = models.BooleanField(default=False)
