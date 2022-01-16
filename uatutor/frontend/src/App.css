@@ -93,6 +93,10 @@
   padding: 2px;
 }
 
+.profile h2{
+  border-bottom:  2px solid #5e07d1;
+}
+
 .profile a {
   margin-left: 500px;
   padding: 6px;
@@ -106,6 +110,10 @@
 .editprofile h3{
   display:inline-block;
   padding: 2px;
+}
+
+.editprofile h2{
+  border-bottom:  2px solid #5e07d1;;
 }
 
 .editprofile input{
