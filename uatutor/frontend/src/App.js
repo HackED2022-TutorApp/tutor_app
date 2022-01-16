@@ -4,6 +4,7 @@ import Home from './Home';
 import Profile from './Profile';
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import About from './About';
+import TutorDetails from './TutorDetails';
 
 function App() {
   const title = "Welcome to UATutor"
@@ -21,6 +22,9 @@ function App() {
             </Route>
             <Route exact path = '/about'>
               <About/>
+            </Route>
+            <Route exact path= '/tutors/:id'>
+              <TutorDetails/>
             </Route>
           </Switch>
         </div>

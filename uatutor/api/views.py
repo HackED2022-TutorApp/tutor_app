@@ -9,6 +9,6 @@ from django.http import HttpResponse
 def main(request):
     return HttpResponse("<h1>Hello</h1>")
 
-class SiteUserView(viewsets.ModelViewSet):
+class TutorView(viewsets.ModelViewSet):
     serializer_class = SiteUserSerializer
-    queryset = SiteUser.objects.all()
+    queryset = SiteUser.objects.filter(tutor=True)
