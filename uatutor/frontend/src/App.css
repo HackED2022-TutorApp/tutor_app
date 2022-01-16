@@ -47,3 +47,26 @@
   color: #18360a;
   margin-bottom: 8px;
 }
+
+.about h1{
+  font-size: 40px;
+  text-align: center;
+}
+
+.about h2{
+  font-size: 25px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.about p.aboutDescription{
+  font-size: 20px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.about p.devNames{
+  font-size: 20px;
+  text-align: center;
+  padding-top: 20px;
+}
