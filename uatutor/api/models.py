@@ -10,8 +10,35 @@ class Tutor(models.Model):
         ('MSc', "Master"),
         ('Phd', 'Doctoral')
     ]
+
+    majorChoices =[ 
+        ('Software Engineering', 'SWE'),
+        ('Aerospace Engineering', 'AEE'),
+        ('Mechanical Engineering', 'MecE'),
+        ('Chemical Engineering', 'ChE'),
+        ('Civil Engineering', 'CivE'),
+        ('Computer Engineering (Hardware)', 'CompE'),
+        ('Environmental Engineering', 'EnvE'),
+        ('Arts', 'ART'),
+        ('Political Sciences', 'PolS'),
+        ('Education', 'EDu'),
+        ('Chemistry', 'CHEM'),
+        ('Biology', 'BIOL'),
+        ('Agriculture', 'AGRI'),
+        ('Economics', 'ECON'),
+        ('Finance', 'FIN'),
+        ('Marketing', 'MARK'),
+        ('Accounting', 'ACCT'),
+        ('Native Studies', 'NATV'),
+        ('Kinesiology', 'KINE'),
+        ('Medicine', 'MED'),
+        ('Pharmacy', 'PHARM'),
+        ('Human Ecology', 'HECOL'),
+        ('Mathematics', 'MATH')
+    ]
+
     degree = models.CharField(choices=degreeChoices, max_length=20)
-    major = models.CharField(max_length=20, blank=False, null=False)
+    major = models.CharField(choices=majorChoices, max_length=31)
     minor = models.CharField(max_length=20, blank =True, null=True)
     subject = models.CharField(max_length=20)
 
