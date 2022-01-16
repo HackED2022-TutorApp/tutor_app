@@ -10,15 +10,14 @@ const EditProfile = () => {
                     <h3>Name:</h3>
                         <input 
                             type="text"
-                            required
+                            defaultValue="test"
                         />
                 </div>
                 <div className='editprofile'>
                     <h3>Degree:</h3>
-                        <input 
-                            type="text"
-                            required
-                        />
+                        <select>
+                            
+                        </select>
                 </div>
                 <div className='editprofile'>
                     <h3>Major:</h3>
