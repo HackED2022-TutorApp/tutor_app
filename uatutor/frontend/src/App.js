@@ -4,6 +4,7 @@ import Home from './Home';
 import Profile from './Profile';
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import About from './About';
+import EditProfile from './EditProfile';
 import TutorDetails from './TutorDetails';
 
 function App() {
@@ -22,6 +23,9 @@ function App() {
             </Route>
             <Route exact path = '/about'>
               <About/>
+            </Route>
+            <Route exact path = '/editprofile'>
+              <EditProfile/>
             </Route>
             <Route exact path= '/tutors/:id'>
               <TutorDetails/>

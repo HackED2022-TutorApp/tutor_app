@@ -52,6 +52,19 @@
   text-decoration: none;
 }
 
+.tutor-details h1 {
+  text-align: center;
+}
+.tutor-details h2 {
+  font-size: 20px;
+  color: #18360a;
+  margin-bottom: 8px;
+}
+.tutor-details p {
+  margin-bottom: 10px;
+}
+
+/*-about----------------------------*/
 .about h1 {
   font-size: 40px;
   text-align: center;
@@ -75,14 +88,44 @@
   padding-top: 20px;
 }
 
-.tutor-details h1 {
-  text-align: center;
+/*-profile----------------------------*/
+.profile h3{
+  padding: 2px;
 }
-.tutor-details h2 {
-  font-size: 20px;
-  color: #18360a;
-  margin-bottom: 8px;
+
+.profile h2{
+  border-bottom:  2px solid #5e07d1;
 }
-.tutor-details p {
-  margin-bottom: 10px;
+
+.profile a {
+  margin-left: 500px;
+  padding: 6px;
 }
+
+.profile a:hover{
+  color: #5e07d1;
+}
+
+/*-editprofile----------------------------*/
+.editprofile h3{
+  display:inline-block;
+  padding: 2px;
+}
+
+.editprofile h2{
+  border-bottom:  2px solid #5e07d1;;
+}
+
+.editprofile input{
+  display:inline;
+}
+
+.editprofile a {
+  margin-left: 500px;
+  padding: 6px;
+}
+
+.editprofile a:hover{
+  color: #5e07d1;
+}
+
