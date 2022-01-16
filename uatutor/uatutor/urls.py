@@ -4,7 +4,7 @@ from api import views
 from rest_framework import routers
 
 router = routers.DefaultRouter()
-router.register(r'tutor', views.TutorView, 'tutor')
+router.register(r'siteuser', views.SiteUserView, 'siteuser')
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('user/', include(('api.routers', 'api'), namespace='core-api')),
