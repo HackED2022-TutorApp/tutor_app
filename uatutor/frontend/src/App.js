@@ -1,6 +1,7 @@
 import './App.css';
 import Navbar from './Navbar';
 import Home from './Home';
+import Profile from './Profile';
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 
 function App() {
@@ -13,6 +14,9 @@ function App() {
           <Switch>
             <Route exact path = '/'>
               <Home/>
+            </Route>
+            <Route exact path = '/profile'>
+              <Profile/>
             </Route>
           </Switch>
         </div>
