@@ -1,3 +1,4 @@
+import {Link} from 'react-router-dom'
 
 const Profile = () => {
     
@@ -11,7 +12,9 @@ const Profile = () => {
             <h3>Subjects of Interest:</h3>
 
 
-
+            <div className="links">
+                <Link to="/editprofile">Edit Profile</Link>
+            </div>
         </div>
      );
 }
