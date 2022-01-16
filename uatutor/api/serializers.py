@@ -1,7 +1,7 @@
 from rest_framework import serializers
-from .models import Tutor
+from .models import SiteUser
 
-class TutorSerializer(serializers.ModelSerializer):
+class SiteUserSerializer(serializers.ModelSerializer):
     class Meta:
-        model = Tutor
+        model = SiteUser
         fields = ['id', 'FirstName', 'LastName', 'dob', 'description', 'degree', 'major', 'minor', 'subject']
