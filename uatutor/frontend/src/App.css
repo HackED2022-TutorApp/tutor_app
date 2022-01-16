@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
 
 /* base styles */
 * {
@@ -26,7 +26,7 @@
   padding: 6px;
 }
 .navbar a:hover {
-  color: #5e07d1
+  color: #5e07d1;
 }
 .content {
   max-width: 600px;
@@ -40,7 +40,7 @@
   border-bottom: 1px solid #fafafa;
 }
 .tutor-preview:hover {
-  box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
 }
 .tutor-preview h2 {
   font-size: 20px;
@@ -48,25 +48,41 @@
   margin-bottom: 8px;
 }
 
-.about h1{
+.tutor-list a {
+  text-decoration: none;
+}
+
+.about h1 {
   font-size: 40px;
   text-align: center;
 }
 
-.about h2{
+.about h2 {
   font-size: 25px;
   text-align: center;
   padding-top: 20px;
 }
 
-.about p.aboutDescription{
+.about p.aboutDescription {
   font-size: 20px;
   text-align: center;
   padding-top: 20px;
 }
 
-.about p.devNames{
+.about p.devNames {
   font-size: 20px;
   text-align: center;
   padding-top: 20px;
+}
+
+.tutor-details h1 {
+  text-align: center;
+}
+.tutor-details h2 {
+  font-size: 20px;
+  color: #18360a;
+  margin-bottom: 8px;
+}
+.tutor-details p {
+  margin-bottom: 10px;
 }
