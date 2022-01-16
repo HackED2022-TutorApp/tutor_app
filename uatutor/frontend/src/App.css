@@ -34,15 +34,15 @@
   padding: 20px;
 }
 
-.site-user-preview {
+.tutor-preview {
   padding: 10px 16px;
   margin: 20px 0;
   border-bottom: 1px solid #fafafa;
 }
-.site-user-preview:hover {
+.tutor-preview:hover {
   box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
 }
-.site-user-preview h2 {
+.tutor-preview h2 {
   font-size: 20px;
   color: #18360a;
   margin-bottom: 8px;
