@@ -1,7 +1,7 @@
 from django.shortcuts import render
 from rest_framework import viewsets
-from .serializers import TutorSerializer
-from .models import Tutor
+from .serializers import SiteUserSerializer
+from .models import SiteUser
 from django.http import HttpResponse
 
 # Create your views here.
@@ -9,6 +9,6 @@ from django.http import HttpResponse
 def main(request):
     return HttpResponse("<h1>Hello</h1>")
 
-class TutorView(viewsets.ModelViewSet):
-    serializer_class = TutorSerializer
-    queryset = Tutor.objects.all()
+class SiteUserView(viewsets.ModelViewSet):
+    serializer_class = SiteUserSerializer
+    queryset = SiteUser.objects.all()
